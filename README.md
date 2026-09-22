@@ -4,6 +4,21 @@ An item-to-item recommender with cosine similarity, popularity fallback, explana
 
 **Focus:** Machine learning engineering / recommendation systems · Python 3.11+ · Standard library · Offline demo
 
+## Tech stack
+
+| Layer | Technologies used |
+| --- | --- |
+| Language | Python 3.11+ |
+| Live ranking | TF-IDF vectors and cosine similarity implemented in Python |
+| Offline model | Item-to-item cosine similarity from implicit feedback |
+| Evaluation | Temporal holdout, hit rate, MRR, popularity baseline |
+| Live source | GitHub repository search API |
+| Dashboard | HTML5, CSS, vanilla JavaScript; Python HTTP server |
+| Data transport | urllib.request, verified TLS, JSON, ETag caching |
+| Testing and CI | unittest, GitHub Actions; Python 3.11–3.13 matrix |
+
+The implementation uses the Python standard library; no external Python packages are required.
+
 ## Run in two commands
 
 From this project directory:
@@ -35,8 +50,6 @@ Binary interactions and in-memory pair counting; expensive for users with very l
 
 This is a portfolio implementation, not evidence of production use or business
 impact. Any reported metrics describe only the included demonstration data.
-Built with AI assistance; review, customize, and understand the implementation
-before presenting it as a personal project in an interview.
 
 ## Live public-data workflow
 
