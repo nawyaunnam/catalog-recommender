@@ -1,0 +1,49 @@
+{
+  "recommendations": [
+    {
+      "item": "testing",
+      "score": 0.7071067811865475,
+      "popularity": 2,
+      "because": "python"
+    },
+    {
+      "item": "pipelines",
+      "score": 0.5773502691896258,
+      "popularity": 1,
+      "because": "sql"
+    }
+  ],
+  "cold_start": [
+    {
+      "item": "python",
+      "score": 0,
+      "popularity": 4,
+      "because": "popularity fallback"
+    },
+    {
+      "item": "sql",
+      "score": 0,
+      "popularity": 3,
+      "because": "popularity fallback"
+    },
+    {
+      "item": "testing",
+      "score": 0,
+      "popularity": 2,
+      "because": "popularity fallback"
+    }
+  ],
+  "holdout_evaluation": {
+    "users": 5,
+    "k": 2,
+    "unseen_catalog_targets": 0,
+    "item_cosine": {
+      "hit_rate": 1.0,
+      "mrr": 0.7
+    },
+    "popularity_baseline": {
+      "hit_rate": 1.0,
+      "mrr": 0.7
+    }
+  }
+}

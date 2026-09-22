@@ -1,0 +1,144 @@
+{
+  "mode": "live fetch",
+  "generated_at": "2026-09-22T01:21:20.142927+00:00",
+  "sources": [
+    {
+      "url": "https://api.github.com/search/repositories?q=topic%3Amachine-learning&sort=updated&per_page=50",
+      "fetched_at": "2026-09-22T01:21:20.139820+00:00"
+    }
+  ],
+  "result": {
+    "project": "CatalogRecommender",
+    "real_repository_candidates": 50,
+    "interests": "python machine learning data engineering pipelines",
+    "recommendations": [
+      {
+        "repository": "GusWan58/dataclaw",
+        "url": "https://github.com/GusWan58/dataclaw",
+        "score": 0.316018,
+        "matching_terms": [
+          "data",
+          "engineering",
+          "learning",
+          "machine",
+          "python"
+        ],
+        "stars": 0,
+        "updated_at": "2026-09-22T01:19:22Z"
+      },
+      {
+        "repository": "meyz664K/auto-re-agent",
+        "url": "https://github.com/meyz664K/auto-re-agent",
+        "score": 0.171739,
+        "matching_terms": [
+          "data",
+          "engineering",
+          "learning",
+          "machine"
+        ],
+        "stars": 5,
+        "updated_at": "2026-09-22T01:18:19Z"
+      },
+      {
+        "repository": "ErcinDedeoglu/crypto-market-data",
+        "url": "https://github.com/ErcinDedeoglu/crypto-market-data",
+        "score": 0.156629,
+        "matching_terms": [
+          "data",
+          "learning",
+          "machine"
+        ],
+        "stars": 81,
+        "updated_at": "2026-09-22T01:19:13Z"
+      },
+      {
+        "repository": "mena256/ai-pair-engineer",
+        "url": "https://github.com/mena256/ai-pair-engineer",
+        "score": 0.151503,
+        "matching_terms": [
+          "engineering",
+          "learning",
+          "machine",
+          "python"
+        ],
+        "stars": 0,
+        "updated_at": "2026-09-22T01:18:48Z"
+      },
+      {
+        "repository": "pytorch/pytorch",
+        "url": "https://github.com/pytorch/pytorch",
+        "score": 0.128721,
+        "matching_terms": [
+          "learning",
+          "machine",
+          "python"
+        ],
+        "stars": 103156,
+        "updated_at": "2026-09-22T01:19:40Z"
+      },
+      {
+        "repository": "ericm790/PromptsForAITools",
+        "url": "https://github.com/ericm790/PromptsForAITools",
+        "score": 0.119598,
+        "matching_terms": [
+          "engineering",
+          "learning",
+          "machine"
+        ],
+        "stars": 0,
+        "updated_at": "2026-09-22T01:19:23Z"
+      },
+      {
+        "repository": "MatewContreras/Iris-DecisionTrees-EnsembleTechniques",
+        "url": "https://github.com/MatewContreras/Iris-DecisionTrees-EnsembleTechniques",
+        "score": 0.115877,
+        "matching_terms": [
+          "data",
+          "learning",
+          "machine",
+          "python"
+        ],
+        "stars": 0,
+        "updated_at": "2026-09-22T01:21:07Z"
+      },
+      {
+        "repository": "soul0fskillz/m5-forecasting-dashboard",
+        "url": "https://github.com/soul0fskillz/m5-forecasting-dashboard",
+        "score": 0.115297,
+        "matching_terms": [
+          "data",
+          "learning",
+          "machine",
+          "python"
+        ],
+        "stars": 0,
+        "updated_at": "2026-09-22T01:20:32Z"
+      },
+      {
+        "repository": "tchoula/KPI-Trap-Lab",
+        "url": "https://github.com/tchoula/KPI-Trap-Lab",
+        "score": 0.108025,
+        "matching_terms": [
+          "data",
+          "learning",
+          "machine"
+        ],
+        "stars": 0,
+        "updated_at": "2026-09-22T01:18:49Z"
+      },
+      {
+        "repository": "cloudedminds/Burnout_Analysis",
+        "url": "https://github.com/cloudedminds/Burnout_Analysis",
+        "score": 0.107214,
+        "matching_terms": [
+          "data",
+          "learning",
+          "machine"
+        ],
+        "stars": 0,
+        "updated_at": "2026-09-22T01:20:13Z"
+      }
+    ],
+    "note": "Live content-based recommendations from current public repository metadata. Offline collaborative filtering and chronological evaluation are separate in engine.py and demo.py. No live relevance labels exist, so no online accuracy metric is claimed."
+  }
+}

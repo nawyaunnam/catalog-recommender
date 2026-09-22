@@ -1,0 +1,17 @@
+test_empty_catalog (test_content_model.ContentModelTests.test_empty_catalog) ... ok
+test_relevance_before_popularity (test_content_model.ContentModelTests.test_relevance_before_popularity) ... ok
+test_unknown_interests_fall_back_to_popularity (test_content_model.ContentModelTests.test_unknown_interests_fall_back_to_popularity) ... ok
+test_cold_start (test_engine.RecommendationTests.test_cold_start) ... ok
+test_duplicate_interaction_does_not_change_model (test_engine.RecommendationTests.test_duplicate_interaction_does_not_change_model) ... ok
+test_exclude_seen (test_engine.RecommendationTests.test_exclude_seen) ... ok
+test_holdout_leakage (test_engine.RecommendationTests.test_holdout_leakage) ... ok
+test_same_timestamp_not_leaked (test_engine.RecommendationTests.test_same_timestamp_not_leaked) ... ok
+test_unknown_catalog_targets_count_as_misses (test_engine.RecommendationTests.test_unknown_catalog_targets_count_as_misses) ... ok
+test_atomic_report_roundtrip (test_feeds.FeedTests.test_atomic_report_roundtrip) ... ok
+test_network_failure_is_not_synthetic_fallback (test_feeds.FeedTests.test_network_failure_is_not_synthetic_fallback) ... ok
+test_nonfinite_output_rejected (test_feeds.FeedTests.test_nonfinite_output_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.020s
+
+OK
